@@ -1,9 +1,10 @@
 $(document).ready(function(){
 	$('article > section').hide();
+	$('section > #annotations').hide();
+
 
 	$('figure.hover-effect').click(function(){
 		$(this).next().slideToggle();
-		$('#annotations').hide();
 
 	});
 
