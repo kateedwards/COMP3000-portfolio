@@ -73,7 +73,6 @@ h2.post{
   font-size: 40pt;
   text-shadow: 5px 5px #efefef;
   text-align: center;
-  padding: 5px;
   color: #4A708B;
   margin-top: 20px;
   margin-bottom: 0;
@@ -108,9 +107,44 @@ h2.post:hover{
   border-bottom: 3px dashed grey;
 }
 
-.hide{
-
+.home:link{
+	text-decoration: none;
+  font-size: 20pt;
+	font-weight: 400;
+	color: white;
 }
+
+.home:hover{
+	text-decoration: none;
+	font-weight: 400;
+  text-decoration: underline;
+}
+
+.home:visited{
+  text-decoration: none;
+	font-weight: 400;
+	color: white;
+}
+
+a:link{
+	text-decoration: none;
+  padding-left: 45%;
+	font-weight: 600;
+	color: #4A708B;
+}
+
+a:hover{
+	text-decoration: none;
+	font-weight: 600;
+  text-decoration: underline;
+}
+
+a:visited{
+  text-decoration: none;
+	font-weight: 600;
+	color: #4A708B;
+}
+
 
 
 figure{
@@ -122,11 +156,10 @@ figure{
 }
 
 
+
 #annotations{
   color: #B0171F;
   border-bottom: 3px dashed grey;
-
-
 
 }
 
@@ -137,6 +170,8 @@ figure{
   position: relative;
   z-index:0;
 }
+
+
 
 #posts section{
   background: #efefef;

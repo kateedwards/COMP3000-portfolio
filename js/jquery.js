@@ -6,10 +6,9 @@ $(document).ready(function(){
 		$('#annotations').hide();
 
 	});
-	$('.hide').click(function(){
-		$('#posts').slideUp();
 
-	});
+
+
 
 	$('.button').click(function(){
 		$(this).next('#annotations').slideToggle();
