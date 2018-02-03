@@ -134,7 +134,6 @@ a:link{
 }
 
 a:hover{
-	text-decoration: none;
 	font-weight: 600;
   text-decoration: underline;
 }
@@ -142,6 +141,20 @@ a:hover{
 a:visited{
   text-decoration: none;
 	font-weight: 600;
+	color: #4A708B;
+}
+
+.link:link{
+  text-decoration: none;
+  color: #4A708B;
+  padding-left: 0px;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+.link:visited{
+  text-decoration: none;
 	color: #4A708B;
 }
 
